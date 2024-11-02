@@ -3,11 +3,11 @@ def score_to_letter_grade(grade):
         return "A"
     elif grade >= 87:
         return "B+"
-    elif grade == 80:
+    elif grade >= 81:
         return "B"
     elif grade >= 77:
         return "C+"
-    elif grade <= 70:
+    elif grade >= 70:
         return "C"
     elif grade >= 67:
         return "D+"
